@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#food-selection {
+    margin-bottom: 20px;
+}
+
+#food-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#food-list li {
+    margin-bottom: 5px;
+}
+
+#order-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order-id {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#food-image {
+    width: 50%;
+}
